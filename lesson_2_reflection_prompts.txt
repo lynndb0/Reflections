@@ -1,4 +1,4 @@
-﻿What happens when you initialize a repository? Why do you need to do it?
+What happens when you initialize a repository? Why do you need to do it?
 
 
 .git metadata file is created and initial population completed.  Kind of like initialising an object so that standardised commands can be used to alter the data from then on.  Otherwise the program would need to contain code to evaluate whether it was the first commit each time for example. 
@@ -10,10 +10,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+The staging area offers a chance to review changes prior to committing; a good opportunity to check all changes are logically related.  It also enables changes to different files to be grouped for changes, so that you can split changes into several different commits if appropriate.  
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Experimental features where feature may not be implemented.  Exploring various data structures.  Where a version of the program has already been released & working on updates. Where multiple programmers are working on mulitple changes simultaneously. 
+
 How do the diagrams help you visualize the branch structure?
+
+Much easy to think about large, many commit trees visually than by individual commit IDs / branch info.  Also helps to ensure commits / aspects are not overlooked.  
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
